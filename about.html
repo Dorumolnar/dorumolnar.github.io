@@ -1,0 +1,84 @@
+<html>
+<head>
+<link rel="shortcut icon" href="logo.png">
+<title>MusicBot | About</title>
+<style>
+
+body {
+  background: #2C2F33;
+}
+#top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #2C2F33;
+}
+.top-link {
+  position: absolute;
+  top: 0;
+  height: 6vh;
+  color: #ffffff;
+  padding-top: 3.5vh;
+  font-size: 3vh;
+  text-align: center;
+  font-family: Arial;
+  text-decoration: none;
+}
+.top-link.first {
+  left: 0;
+  width: 15vh;
+}
+.top-link.second {
+  left: 15vh;
+  width: 15vh;
+}
+.top-link.third {
+  left: 30vh;
+  width: 20vh;
+}
+.top-link:hover {
+  background: #23272A;
+  border-bottom: 0.5vh solid #23272A;
+}
+.top-link.active {
+  border-bottom: 0.5vh solid #7289DA;
+}
+#content {
+  width: calc(100vw - 4vh);
+  height: 86vh;
+  padding: 2vh;
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  background: #23272A;
+  color: #ffffff;
+  font-family: Arial;
+  overflow-y: auto;
+}
+a {
+  color: #ffffff;
+}
+</style>
+</head>
+<body>
+<div id="top">
+<a href="./" class="top-link first">Home</a>
+<a href="about" class="top-link second active">About</a>
+<a href="commands" class="top-link third">Commands</a>
+</div>
+<div id="content">
+<h1>What is Music-Bot?</h1>
+<p>Music-Bot is a bot created in python. The bot will be hosted. The site is hosted on Github Pages</p>
+<br>
+<br>
+<h1>Who made Music-Bot?</h1>
+<p>Music-Bot was made by Diru.</p>
+<br>
+<br>
+<h1>How do i get in touch with developers?</h1>
+<p>On discord: https://discord.gg/tdDytsE</p>
+</div>
+</body>
+</html>
