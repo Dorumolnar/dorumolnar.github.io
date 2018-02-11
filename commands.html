@@ -127,28 +127,28 @@ a {
 </div>
 <div id="content">
 <h1>Commands help</h1>
-<a onclick="command('help')">?help</a>
+<a>?help</a>
 <br>
 <br>
-<a onclick="command('ball')">?8ball</a>
+<a>?8ball</a>
 <br>
 <br>
-<a onclick="command('flip')">?flip</a>
+<a>?flip</a>
+<br>
+<br>
+<a>?lowercase</a>
+<br>
+<br>
+<a>?uppercase</a>
+<br>
+<br>
+<a>?rolldice</a>
+<br>
+<br>
+<a>?ship</a>
+<br>
+<br>
+  <a>?info</a>
 </div>
-<div id="commandOverlay" onclick="commandClose()"></div>
-<div id="command"></div>
-<script>
-  var help = "<h1>p!help</h1><p>The p!help command is used to get info on commands. It gives a link to this page.<br><br>Usage: p!help";
-  funcion command(cmd) {
-    document.getElementById("command").innerHTML = this[cmd] + "<p><h5>Key: &lt;reguired&gt; [optional]</h5>";
-    document.getElementById("command").style.display = "block";
-    document.getElementById("commandOverlay").style.display = "block";
-  }
-  fuction commandClose() {
-    document.getElementById("command").style.display = "none";
-    document.getElementById("commandOverlay").style.display = "none";
-  }
-  
-</script>
 </body>
 </html>
